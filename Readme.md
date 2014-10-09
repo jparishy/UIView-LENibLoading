@@ -25,7 +25,7 @@ You can use the category directly:
     if (self) {
         
         self.translatesAutoresizingMaskIntoConstraints = NO;
-        [self ft_loadFromNib];
+        [self le_loadFromNib];
     }
     
     return self;
