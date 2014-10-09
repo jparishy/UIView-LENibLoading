@@ -17,7 +17,7 @@
     self = [super initWithFrame:frame];
     if (self) {
         
-        [self initializeSubviews];
+        [self le_initializeSubviews];
     }
     
     return self;
@@ -27,10 +27,10 @@
 {
     [super awakeFromNib];
     
-    [self initializeSubviews];
+    [self le_initializeSubviews];
 }
 
-- (void)initializeSubviews
+- (void)le_initializeSubviews
 {
     self.translatesAutoresizingMaskIntoConstraints = NO;
     [self le_loadFromNib];

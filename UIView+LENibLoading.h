@@ -13,4 +13,8 @@
 - (void)le_loadFromNib;
 - (void)le_loadFromNibWithNibName:(NSString *)nibName bundle:(NSBundle *)bundle;
 
+- (UIView *)le_rootView;
+
++ (NSArray *)le_copyLayoutConstraints:(NSArray *)constraints fromView:(UIView *)originalView toView:(UIView *)destinationView;
+
 @end
